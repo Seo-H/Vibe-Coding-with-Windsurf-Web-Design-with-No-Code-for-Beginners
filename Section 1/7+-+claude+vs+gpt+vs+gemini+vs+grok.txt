@@ -1,0 +1,10 @@
+Create an e-commerce one page website with my oatmeal products. Use dummy information: title, price, weight, reviews. Use the images from this folder: "C:\Users\deus_\grok\images"
+I want a grid of 4 by 2 that showcases my products. Add a big map that shows this address: Soseaua Giurgiului 230, sector 4, Bucuresti
+Add an Instagram feed from this profile: https://www.instagram.com/ohvaz_ro/
+Use red, pink, and dark blue for the color scheme. Use a chunky, friendly font.
+Add an FAQ section with dummy content as well as a newsletter sign up form.
+In the main menu show a cart button and a register button. Use whatever tech stack you think is best.
+
+--
+* imaginile le poti descarca de pe www.ohvaz.ro sau orice altceva de pe www.unsplash.com
+* "C:\Users\deus_\grok\images" - trebuie inlocuita aceasta cale cu locatia unde ti-ai descarcat pozele. Apoi dai click dreapta pe acel folder si alegi "copy path" sau folosesti bara de sus din explorer.

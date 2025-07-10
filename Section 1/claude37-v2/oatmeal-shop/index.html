@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oatmeal Delights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Oatmeal Delights</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button class="register-btn">Register</button>
+                <button class="cart-btn"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Delicious & Nutritious</h2>
+                <h3>Premium Oatmeal Products</h3>
+                <p>Handcrafted with love, our oatmeal products are made with the finest ingredients for a healthy start to your day.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chia_3_2-1024x576.jpg" alt="Chia Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chia Seed Oatmeal</h3>
+                        <p class="product-price">$8.99</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/ananas-ch-416x374.jpg" alt="Pineapple Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pineapple Oatmeal</h3>
+                        <p class="product-price">$9.49</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(38 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/b3-416x374.jpg" alt="Berry Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Berry Blast Oatmeal</h3>
+                        <p class="product-price">$9.99</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(29 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/prune2-416x374.jpg" alt="Prune Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Prune & Cinnamon Oatmeal</h3>
+                        <p class="product-price">$8.49</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(21 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/papaya.jpg" alt="Papaya Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tropical Papaya Oatmeal</h3>
+                        <p class="product-price">$9.99</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(47 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/migdale.jpg" alt="Almond Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Almond & Honey Oatmeal</h3>
+                        <p class="product-price">$10.49</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(53 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/unt.jpg" alt="Butter Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Butter Cookie Oatmeal</h3>
+                        <p class="product-price">$8.99</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(31 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/bisc2-1024x922.jpg" alt="Biscuit Oatmeal">
+                        <div class="product-overlay">
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Biscuit Crumble Oatmeal</h3>
+                        <p class="product-price">$9.29</p>
+                        <p class="product-weight">350g</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(64 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.2876536024!2d26.097945776537574!3d44.38262397107613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff0c7012e96d%3A0x7f3e3f3c3e98b6b9!2sSoseaua%20Giurgiului%20230%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1620123456789!5m2!1sen!2sro" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div class="address-info">
+                <h3>Visit Our Store</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Soseaua Giurgiului 230, sector 4, Bucuresti</p>
+                <p><i class="fas fa-clock"></i> Monday - Friday: 9am - 6pm</p>
+                <p><i class="fas fa-clock"></i> Saturday: 10am - 4pm</p>
+                <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram" class="instagram">
+        <div class="container">
+            <h2 class="section-title">Follow Us on Instagram</h2>
+            <p class="instagram-handle">@ohvaz_ro</p>
+            <div class="instagram-feed">
+                <div class="instagram-post">
+                    <img src="images/IMG_6621-1024x576.png" alt="Instagram Post">
+                </div>
+                <div class="instagram-post">
+                    <img src="images/IMG_6642-1024x576.png" alt="Instagram Post">
+                </div>
+                <div class="instagram-post">
+                    <img src="images/IMG_6659-1536x864.png" alt="Instagram Post">
+                </div>
+                <div class="instagram-post">
+                    <img src="images/IMG_6677.png" alt="Instagram Post">
+                </div>
+                <div class="instagram-post">
+                    <img src="images/ROB1959-768x945.png" alt="Instagram Post">
+                </div>
+                <div class="instagram-post">
+                    <img src="images/ROB7783-1024x576.png" alt="Instagram Post">
+                </div>
+            </div>
+            <a href="https://www.instagram.com/ohvaz_ro/" target="_blank" class="btn instagram-btn">View More on Instagram</a>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are your oatmeal products gluten-free?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all our oatmeal products are made with certified gluten-free oats. However, they are processed in a facility that also handles wheat products, so there may be traces of gluten.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does shipping usually take?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Standard shipping within Romania takes 2-3 business days. International shipping may take 7-14 business days depending on the destination.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the shelf life of your products?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our oatmeal products have a shelf life of 6 months when stored in a cool, dry place. The exact expiration date is printed on each package.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer wholesale options?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer wholesale pricing for bulk orders. Please contact our sales team at wholesale@oatmealdelights.com for more information.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I prepare your oatmeal products?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Simply add hot water or milk to the oatmeal, stir, and let it sit for 2-3 minutes. For a creamier texture, you can cook it on the stovetop for 5 minutes. Detailed instructions are on each package.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest updates, recipes, and exclusive offers straight to your inbox!</p>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Oatmeal Delights</h2>
+                    <p>Delicious & Nutritious</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Soseaua Giurgiului 230, sector 4, Bucuresti</p>
+                    <p><i class="fas fa-phone"></i> +40 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@oatmealdelights.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ohvaz_ro/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Oatmeal Delights. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button class="close-cart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be added here dynamically -->
+                <p class="empty-cart-message">Your cart is empty</p>
+            </div>
+            <div class="cart-total">
+                <p>Total: <span id="cart-total-price">$0.00</span></p>
+            </div>
+            <button class="btn checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

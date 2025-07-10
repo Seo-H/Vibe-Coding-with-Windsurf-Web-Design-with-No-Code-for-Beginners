@@ -1,0 +1,8 @@
+Create a modern portfolio landing page for me, Chris Barin, 36, from Bucharest, Romania. I have 14 years experience in design, I'm an Adobe Certified Instructor, and I specialize in web and app design. I prefer a red and black color scheme, nice animations, and a portfolio section with 5 categories. use placeholder images for now. It will be one single page with a main menu at the top that takes you down to that particular section. My office address is: Soseaua Giurgiului 230, sector 4, Bucuresti. Add dummy reviews.
+Add a contact form for people to message me and show my phone number: 0720.123.123 as well as all my social media profiles. Use best practices to build the landing page.
+
+---
+
+Poti scrie si in limba romana, insa iti recomand sa te mentii pe limba engleza, te va ajuta.
+
+Cand faci varianta ta, inlocuieste datele mele cu ale tale. Poti adauga inca 1-2 detalii, dar nu complica prea tare prompt-ul.
