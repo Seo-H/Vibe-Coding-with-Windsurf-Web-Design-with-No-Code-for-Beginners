@@ -1,5 +1,4 @@
-여기를 클릭하여 Windsurf AI를 다운로드하세요
-https://windsurf.com/download
+# [여기를 클릭하여 Windsurf AI를 다운로드하세요](https://windsurf.com/download)
 
 Windsurf AI는 코딩 방법을 모르더라도 소프트웨어(웹사이트, 앱)를 만들 수 있도록 도와주는 프로그램입니다. 다양한 회사에서 제공하는 인공지능(모델)을 사용하여 모든 코드를 자동으로 생성합니다.
 
